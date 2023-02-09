@@ -6,7 +6,7 @@ body {
     height: 100%;
 }
 
-.section-form {
+.contact-form {
 
     display: block;
     text-align: center;
@@ -14,7 +14,7 @@ body {
 
 }
 
-.form {
+#form {
 
     display: inline-block;
     margin-left: auto;
@@ -45,10 +45,7 @@ body {
 
 }
 
-.enviar {
-    margin-top: 20px;
 
-}
 
 .input-msg {
 
