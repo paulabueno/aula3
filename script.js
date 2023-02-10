@@ -1,13 +1,11 @@
 const form = document.getElementById("form");
 
 form.addEventListener("submit", (e) => {
-    ''
     e.preventDefault();
 
-    const name = document.getElementsById("name").value;
-    const email = document.getElementsById("email").value;
-    const mensage = document.getElementsById("msg").value;
+    const name = form.elements["name"].value;
+    const email = form.elements["email"].value;
+    const mensage = form.elements["msg"].value;
    
-    alert(name, email, mensage)
+    alert(`Nome : ${name}, Email : ${email} ,Mensagem: ${mensage}`)
 });
-
